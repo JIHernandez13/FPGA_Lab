@@ -3,7 +3,7 @@ reg sw0,sw1,sw2,sw3,sw4,sw5,sw6,sw7,sw8,sw9,sw10,sw11,sw12,sw13,sw14,sw15;  // 1
     reg	btn0,btn1;  // todo: put a note as to what these buttons do? Or name them better.
     wire [7:0]	ssd;  // note: wtf is this?
     wire [2:0] comparator_out;
-alu_top alu_uut(sw0,sw1,sw2,sw3,sw4,sw5,sw6,sw7,sw8,sw9,sw10,sw11,sw12,sw13,sw14,sw15,btn0,btn1,ssd,comparator_out);
+ALU_top alu_uut(sw0,sw1,sw2,sw3,sw4,sw5,sw6,sw7,sw8,sw9,sw10,sw11,sw12,sw13,sw14,sw15,btn0,btn1,ssd,comparator_out);  //NOTE: is alu_top case sensitive??
 initial
 begin
 
